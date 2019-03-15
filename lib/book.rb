@@ -3,7 +3,7 @@ class Book
   attr_reader :title
 
   def initialize(title)
-    @title = title
+    @title = book
   end
 
   def turn_page
